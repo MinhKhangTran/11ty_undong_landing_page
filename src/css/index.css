@@ -343,14 +343,6 @@ ul {
   margin-inline: auto;
 }
 
-.mt-3 {
-  margin-top: 1.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.875rem;
-}
-
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -370,4 +362,18 @@ ul {
   .heading-1 {
     font-size: 2.5rem;
   }
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1120px;
+  margin-inline: auto;
+}
+
+nav ul {
+  gap: 2.5rem;
+}
+nav a {
+  text-decoration: none;
+  color: #2e384e;
 }

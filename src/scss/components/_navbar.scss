@@ -1,0 +1,11 @@
+@use "sass:math";
+
+nav {
+  ul {
+    gap: math.div(40rem, 16);
+  }
+  a {
+    text-decoration: none;
+    color: $blue-dark;
+  }
+}
