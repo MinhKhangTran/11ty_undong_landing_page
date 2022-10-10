@@ -1,0 +1,25 @@
+{
+    "subtitle":"Wer nutzt dieses Produkt",
+    "social_proof": [
+      {
+        "icon": "/images/hero/running-pal.svg",
+        "text": "RunningPal"
+      },
+      {
+        "icon": "/images/hero/gymnotes.svg",
+        "text": "GymNotes"
+      },
+      {
+        "icon": "/images/hero/cenagains.svg",
+        "text": "CenaGains"
+      },
+      {
+        "icon": "/images/hero/strengthbit.svg",
+        "text": "StrengthBit"
+      },
+      {
+        "icon": "/images/hero/eliteetf.svg",
+        "text": "eliteETF"
+      }
+    ]
+  }

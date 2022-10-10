@@ -1,0 +1,19 @@
+{
+    "subtitle":"Das ist Undong",
+    "title":"Trainingsplanung neu gestaltet",
+    "subtext":"Deine Trainingsziele tracken und optimieren war noch nie so einfach. Mit unsere KI basierende Planung und der einfachen Handhabung der App (Mobile oder Desktop) erreichst du deine Ziele im Nu.",
+    "benefits": [
+      {
+        "icon": "/images/about-us/schnell-einsatzbereit.svg",
+        "text": "Schnell einsatzbereit"
+      },
+      {
+        "icon": "/images/about-us/einfach-zu-lernen.svg",
+        "text": "Einfach zu lernen"
+      },
+      {
+        "icon": "/images/about-us/funktionsreich.svg",
+        "text": "Funktionsreich"
+      }
+    ]
+  }
