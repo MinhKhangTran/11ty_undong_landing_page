@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de-De">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}" />
+
+    <title>{{title}}</title>
+  </head>
+  <body class="bg-white">
+    <!-- main markdown -->
+    <div>
+      {% include "partials/navbar.html" %}
+      <main tabindex="-1" id="main-content">
+        {% block content %}{% endblock %}
+      </main>
+      {% include "partials/footer.html" %}
+    </div>
+   
+    <!-- Load own JS -->
+    <!-- <script src="{{ '/js/back-to-top.js' | url }}"></script>
+    <script src="{{ '/js/form-checker.js' | url }}"></script> -->
+
+    
+  </body>
+</html>
