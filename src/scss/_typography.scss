@@ -1,0 +1,10 @@
+@use "sass:math";
+
+.heading-1 {
+  font-size: math.div(48rem, 16);
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  @include sm {
+    font-size: math.div(40rem, 16);
+  }
+}

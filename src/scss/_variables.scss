@@ -1,0 +1,34 @@
+// Gray
+
+$gray-600: #979baa; //Span above heading
+$gray-700: #62677f; //Body
+$gray-800: #353945; //Bulletpoints
+$gray-900: #1b1e2b; //Heading
+// Blue
+$blue-dark: #2e384e; //Navigation
+$blue-lighter: #ecf2f9; //Features Overlay
+$blue-light: #d2d8ee; //Gradient
+$blue-primary: #1a73e5; //Primary
+// Green
+$green: #219653;
+$green-light: #c0f1d5;
+// Yellow
+$yellow: #725808;
+$yellow-light: #f7df96;
+
+// color palette
+$colors: (
+  "gray-600": $gray-600,
+  "gray-800": $gray-800,
+  "gray-900": $gray-900,
+  "blue-dark": $blue-dark,
+  "blue-light": $blue-light,
+  "blue-lighter": $blue-lighter,
+  "blue-primary": $blue-primary,
+  "yellow": $yellow,
+  "yellow-light": $yellow-light,
+  "green": $green,
+  "green-light": $green-light,
+);
+
+$transition: all 0.35s ease-in;
