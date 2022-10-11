@@ -370,10 +370,6 @@ ul {
   margin-inline: auto;
 }
 
-nav ul {
-  gap: 2.5rem;
-}
-nav a {
-  text-decoration: none;
-  color: #2e384e;
+nav .logo {
+  margin-top: 2.625rem;
 }

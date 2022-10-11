@@ -1,11 +1,7 @@
 @use "sass:math";
 
 nav {
-  ul {
-    gap: math.div(40rem, 16);
-  }
-  a {
-    text-decoration: none;
-    color: $blue-dark;
+  .logo {
+    margin-top: math.div(42rem, 16);
   }
 }
