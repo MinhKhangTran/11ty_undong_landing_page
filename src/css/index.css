@@ -337,10 +337,8 @@ ul {
   border-radius: 90px;
 }
 
-.container {
-  width: 90%;
-  max-width: 794px;
-  margin-inline: auto;
+.text-center {
+  text-align: center;
 }
 
 .img-fluid {
@@ -353,14 +351,25 @@ ul {
   display: inline-block;
 }
 
+body {
+  font-size: 1rem;
+  color: #62677f;
+}
+@media (min-width: 768px) {
+  body {
+    font-size: 1.25rem;
+  }
+}
+
 .heading-1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1b1e2b;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .heading-1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 

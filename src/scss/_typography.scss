@@ -1,10 +1,18 @@
 @use "sass:math";
 
+body {
+  font-size: math.div(16rem, 16);
+  color: $gray-700;
+  @include md {
+    font-size: math.div(20rem, 16);
+  }
+}
 .heading-1 {
-  font-size: math.div(48rem, 16);
+  font-size: math.div(40rem, 16);
   font-weight: 400;
   font-family: "Plus Jakarta Sans", sans-serif;
-  @include sm {
-    font-size: math.div(40rem, 16);
+  color: $gray-900;
+  @include md {
+    font-size: math.div(48rem, 16);
   }
 }
