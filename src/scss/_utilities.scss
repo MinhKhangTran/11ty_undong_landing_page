@@ -34,3 +34,10 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
 .inline-block {
   display: inline-block;
 }
+
+.position-relative {
+  position: relative;
+}
+.position-absolute {
+  position: absolute;
+}
