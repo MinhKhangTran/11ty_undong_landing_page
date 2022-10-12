@@ -1,0 +1,28 @@
+.btn__secondary {
+  padding-inline: 1.5rem;
+  padding-block: 0.625rem;
+  border: 1px solid #1a73e5;
+  border-radius: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: $transition;
+  font-weight: bold;
+  &:hover {
+    background-color: #1a73e5;
+    color: white;
+  }
+}
+.btn__primary {
+  padding-inline: 1.5rem;
+  padding-block: 0.625rem;
+  background: #1a73e5;
+  border: 1px solid #1a73e5;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: $transition;
+  color: white;
+  font-weight: bold;
+  &:hover {
+    background: hsl(214 80% 60%);
+  }
+}

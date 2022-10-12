@@ -17,8 +17,16 @@
   }
   .button__wrapper {
     margin-block: 2rem;
+    gap: 1rem;
     @include md {
       margin-block: math.div(40rem, 16);
+      gap: 2rem;
+    }
+    svg {
+      margin-right: 0.25rem;
+      @include md {
+        margin-right: 0.5rem;
+      }
     }
   }
   .hero__gradient {
@@ -49,6 +57,136 @@
     }
     &--blob2 {
       right: 5%;
+    }
+  }
+  .dumbbell {
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 250px;
+    opacity: 0;
+    @include md {
+      width: 68px;
+      height: 68px;
+      left: 10px;
+      top: 350px;
+      opacity: 1;
+    }
+    @include lg {
+      left: 10px;
+      top: 450px;
+    }
+    @include xl {
+      left: 140px;
+      top: 450px;
+    }
+  }
+  .level-up {
+    width: 40px;
+    height: 40px;
+    left: 40px;
+    top: 185px;
+    opacity: 0;
+    @include md {
+      width: 68px;
+      height: 68px;
+      left: 100px;
+      top: 300px;
+      opacity: 1;
+    }
+    @include lg {
+      left: 100px;
+      top: 300px;
+    }
+    @include xl {
+      left: 250px;
+      top: 250px;
+    }
+  }
+  .scribble {
+    width: 80px;
+    height: 80px;
+    left: 250px;
+    top: 245px;
+    opacity: 0;
+    z-index: -1;
+    @include sm {
+      width: 100px;
+      height: 100px;
+      left: 450px;
+      top: 180px;
+      opacity: 1;
+    }
+    @include md {
+      width: 120px;
+      height: 120px;
+      left: 580px;
+      top: 340px;
+      opacity: 1;
+    }
+    @include lg {
+      left: 700px;
+      top: 310px;
+    }
+    @include xl {
+      left: 810px;
+      top: 310px;
+    }
+    @include xxl {
+      left: 1050px;
+      top: 310px;
+    }
+  }
+  .social-proof {
+    width: 126px;
+    height: 54px;
+    left: 20px;
+    top: 350px;
+    opacity: 0;
+    @include md {
+      width: 168px;
+      height: 72px;
+      left: 10px;
+      top: 630px;
+      opacity: 1;
+    }
+    @include lg {
+      left: 30px;
+      top: 670px;
+    }
+    @include xl {
+      left: 80px;
+      top: 650px;
+    }
+    @include xxl {
+      left: 180px;
+      top: 650px;
+    }
+  }
+  .hero-deco {
+    width: 126px;
+    height: 54px;
+    right: 20px;
+    top: 350px;
+    opacity: 0;
+    @include md {
+      width: 168px;
+      height: 72px;
+      right: 10px;
+      top: 550px;
+      opacity: 1;
+    }
+    @include lg {
+      right: 30px;
+      top: 570px;
+    }
+    @include xl {
+      right: 80px;
+      top: 550px;
+    }
+    @include xxl {
+      right: 180px;
+      top: 550px;
     }
   }
 }
