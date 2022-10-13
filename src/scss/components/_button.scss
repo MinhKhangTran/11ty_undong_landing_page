@@ -6,7 +6,9 @@
   background-color: transparent;
   cursor: pointer;
   transition: $transition;
+
   font-weight: bold;
+
   &:hover {
     background-color: #1a73e5;
     color: white;
@@ -21,7 +23,9 @@
   cursor: pointer;
   transition: $transition;
   color: white;
+
   font-weight: bold;
+
   &:hover {
     background: hsl(214 80% 60%);
   }

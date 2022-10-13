@@ -16,3 +16,12 @@ body {
     font-size: math.div(48rem, 16);
   }
 }
+.small__heading {
+  font-weight: 700;
+  font-size: math.div(12rem, 16);
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.2em;
+
+  color: #979baa;
+}

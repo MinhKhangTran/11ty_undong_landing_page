@@ -1,0 +1,25 @@
+@use "sass:math";
+#social__proof__sm {
+  margin-block: math.div(64rem, 16);
+  overflow-x: hidden;
+  @include md {
+    margin-block: math.div(88rem, 16);
+  }
+  h2 {
+    margin-bottom: math.div(24rem, 16);
+    @include md {
+      margin-bottom: math.div(40rem, 16);
+    }
+  }
+  ul {
+    flex-direction: column;
+    gap: 2rem;
+    @include md {
+      flex-direction: row;
+      gap: math.div(80rem, 16);
+    }
+    li {
+      display: inline;
+    }
+  }
+}

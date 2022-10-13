@@ -97,6 +97,10 @@ ul {
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .text-gray-600 {
   color: #979baa;
 }
@@ -381,6 +385,15 @@ body {
   }
 }
 
+.small__heading {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #979baa;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1120px;
@@ -391,10 +404,14 @@ nav .logo {
   margin-top: 2.625rem;
 }
 
+#hero__section {
+  padding-bottom: 2rem;
+}
 @media (min-width: 768px) {
   #hero__section {
     height: 800px;
     overflow: hidden;
+    padding-bottom: 0;
   }
 }
 #hero__section h1 {
@@ -412,9 +429,11 @@ nav .logo {
 #hero__section .button__wrapper {
   margin-block: 2rem;
   gap: 1rem;
+  flex-direction: column;
 }
 @media (min-width: 768px) {
   #hero__section .button__wrapper {
+    flex-direction: row;
     margin-block: 2.5rem;
     gap: 2rem;
   }
@@ -517,6 +536,7 @@ nav .logo {
   top: 245px;
   opacity: 0;
   z-index: -1;
+  display: none;
 }
 @media (min-width: 576px) {
   #hero__section .scribble {
@@ -524,7 +544,7 @@ nav .logo {
     height: 100px;
     left: 450px;
     top: 180px;
-    opacity: 1;
+    opacity: 0;
   }
 }
 @media (min-width: 768px) {
@@ -651,4 +671,35 @@ nav .logo {
 }
 .btn__primary:hover {
   background: hsl(214deg, 80%, 60%);
+}
+
+#social__proof__sm {
+  margin-block: 4rem;
+  overflow-x: hidden;
+}
+@media (min-width: 768px) {
+  #social__proof__sm {
+    margin-block: 5.5rem;
+  }
+}
+#social__proof__sm h2 {
+  margin-bottom: 1.5rem;
+}
+@media (min-width: 768px) {
+  #social__proof__sm h2 {
+    margin-bottom: 2.5rem;
+  }
+}
+#social__proof__sm ul {
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  #social__proof__sm ul {
+    flex-direction: row;
+    gap: 5rem;
+  }
+}
+#social__proof__sm ul li {
+  display: inline;
 }

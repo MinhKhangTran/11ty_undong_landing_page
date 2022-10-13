@@ -1,9 +1,11 @@
 @use "sass:math";
 
 #hero__section {
+  padding-bottom: 2rem;
   @include md {
     height: 800px;
     overflow: hidden;
+    padding-bottom: 0;
   }
   h1 {
     margin-top: math.div(64rem, 16);
@@ -18,7 +20,9 @@
   .button__wrapper {
     margin-block: 2rem;
     gap: 1rem;
+    flex-direction: column;
     @include md {
+      flex-direction: row;
       margin-block: math.div(40rem, 16);
       gap: 2rem;
     }
@@ -110,12 +114,13 @@
     top: 245px;
     opacity: 0;
     z-index: -1;
+    display: none;
     @include sm {
       width: 100px;
       height: 100px;
       left: 450px;
       top: 180px;
-      opacity: 1;
+      opacity: 0;
     }
     @include md {
       width: 120px;

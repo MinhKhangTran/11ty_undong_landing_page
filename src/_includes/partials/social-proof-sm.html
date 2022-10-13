@@ -1,0 +1,12 @@
+<section id="social__proof__sm" aria-label="social proof small section">
+    <h2 class="small__heading">
+        {{socialProofSm.subtitle}}
+    </h2>
+    <ul class="d-flex | justify-center align-center">
+        {% for social in socialProofSm.social_proof %}
+        <li>
+            <img height="32" src="{{social.icon}}" alt="{{social.text}}">
+        </li>
+        {% endfor %}
+    </ul>
+</section>
