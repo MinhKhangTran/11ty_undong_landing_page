@@ -3,6 +3,8 @@
 body {
   font-size: math.div(16rem, 16);
   color: $gray-700;
+  line-height: math.div(25rem, 16);
+  font-weight: normal;
   @include md {
     font-size: math.div(20rem, 16);
   }
@@ -12,8 +14,19 @@ body {
   font-weight: 400;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: $gray-900;
+  line-height: 60px;
   @include md {
     font-size: math.div(48rem, 16);
+  }
+}
+.heading-2 {
+  font-size: math.div(32rem, 16);
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: $gray-900;
+  line-height: 50px;
+  @include md {
+    font-size: math.div(40rem, 16);
   }
 }
 .small__heading {
@@ -22,6 +35,5 @@ body {
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.2em;
-
   color: #979baa;
 }

@@ -14,3 +14,6 @@ social-proof.json => socialProof.json
 Ein Wort
 social-proof.json => social.json
 ```
+
+- Neue Datei erstellen `option + command + N` und dann Pfad aussuchen und Dateiname eingeben
+- Read me preview `command K + V` V wie Vorschau

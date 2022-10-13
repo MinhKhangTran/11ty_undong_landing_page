@@ -1,0 +1,23 @@
+<section id="aboutUs" aria-label="about us section">
+    <p class="small__heading | text-center">
+        {{aboutUs.subtitle}}
+    </p>
+    <h2 class="heading-2 | text-center">
+        {{aboutUs.title}}
+    </h2>
+    <p class="subtext | text-center">
+        {{aboutUs.subtext}}
+    </p>
+    <ul class="d-flex | justify-center align-center">
+        {% for icon in aboutUs.benefits %}
+        <li class="d-flex | justify-center align-center">
+            <div class="icon__box | d-flex align-center justify-center">
+                <img height="48" src="{{icon.icon}}" alt="{{icon.text}}">
+            </div>
+            <p>
+                {{icon.text}}
+            </p>
+        </li>
+        {% endfor %}
+    </ul>
+</section>

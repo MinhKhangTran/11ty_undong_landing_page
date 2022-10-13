@@ -366,6 +366,8 @@ body {
 body {
   font-size: 1rem;
   color: #62677f;
+  line-height: 1.5625rem;
+  font-weight: normal;
 }
 @media (min-width: 768px) {
   body {
@@ -378,10 +380,24 @@ body {
   font-weight: 400;
   font-family: "Plus Jakarta Sans", sans-serif;
   color: #1b1e2b;
+  line-height: 60px;
 }
 @media (min-width: 768px) {
   .heading-1 {
     font-size: 3rem;
+  }
+}
+
+.heading-2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1b1e2b;
+  line-height: 50px;
+}
+@media (min-width: 768px) {
+  .heading-2 {
+    font-size: 2.5rem;
   }
 }
 
@@ -702,4 +718,124 @@ nav .logo {
 }
 #social__proof__sm ul li {
   display: inline;
+}
+
+.border {
+  border: 1px solid #e1e9f4;
+}
+
+#aboutUs {
+  margin-block: 4rem;
+  width: 90%;
+  margin-inline: auto;
+}
+@media (min-width: 768px) {
+  #aboutUs {
+    margin-block: 6.5rem;
+  }
+}
+@media (min-width: 768px) {
+  #aboutUs h2 {
+    width: 600px;
+    margin-inline: auto;
+  }
+}
+#aboutUs .subtext {
+  padding-block: 2rem 2.5rem;
+}
+@media (min-width: 768px) {
+  #aboutUs .subtext {
+    width: 600px;
+    margin-inline: auto;
+  }
+}
+#aboutUs ul {
+  flex-direction: column;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  #aboutUs ul {
+    flex-direction: row;
+    gap: 5.5rem;
+  }
+}
+#aboutUs ul li {
+  gap: 0.25rem;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #aboutUs ul li {
+    gap: 0.75rem;
+    flex-direction: row;
+  }
+}
+#aboutUs .icon__box {
+  background: #ecf2f9;
+  border-radius: 16px;
+  width: 72px;
+  height: 72px;
+}
+
+#feat__1 {
+  padding-block: 4rem;
+}
+#feat__1 .feat {
+  gap: 2rem;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  #feat__1 .feat {
+    flex-direction: row;
+  }
+}
+#feat__1 .feat__left {
+  flex: 1;
+}
+#feat__1 .feat__left h2 {
+  padding-block: 1rem 2rem;
+}
+#feat__1 .feat__right {
+  flex: 1;
+}
+#feat__1 .feat .bubble {
+  background: #ecf2f9;
+  border-radius: 16px;
+  display: inline;
+  padding: 1rem 1.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1a73e5;
+}
+#feat__1 .feat .text1 {
+  padding-bottom: 1rem;
+}
+#feat__1 ul {
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  #feat__1 ul {
+    flex-direction: row;
+    gap: 5.5rem;
+  }
+}
+#feat__1 ul li {
+  gap: 0.25rem;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #feat__1 ul li {
+    gap: 0.75rem;
+    flex-direction: row;
+  }
+}
+#feat__1 .icon__box {
+  background: #ecf2f9;
+  border-radius: 16px;
+  width: 72px;
+  height: 72px;
 }

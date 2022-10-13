@@ -1,0 +1,21 @@
+{
+  "subtitle": "Planung",
+  "title": "Fokussiere dich auf die Ziele. Den Rest übernehmen wir!",
+  "text1": "Mit einigen Eingabedaten erstellen wir eine individuelle Trainings-, Ernährungs- und Schlafplanung für dich - einfach und alles in einer App.",
+  "text2": "Mit unserem KI-basierten Optimierungstool sind flexible Änderungen ohne Stress leicht zu handhaben.",
+  "mainPic": "/images/feat1/feat-1.png",
+  "feats": [
+    {
+      "icon": "/images/feat1/smartphone.svg",
+      "text": "Alle Pläne an einem Ort"
+    },
+    {
+      "icon": "/images/feat1/plaene.svg",
+      "text": "Mehrere Pläne verwalten"
+    },
+    {
+      "icon": "/images/feat1/goal.svg",
+      "text": "Vollständig anpassbar an deine Ziele"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+@use "sass:math";
+
+#feat__1 {
+  padding-block: math.div(64rem, 16);
+  .feat {
+    gap: 2rem;
+    flex-direction: column;
+    @include lg {
+      flex-direction: row;
+    }
+    &__left {
+      flex: 1;
+      h2 {
+        padding-block: 1rem 2rem;
+      }
+    }
+    &__right {
+      flex: 1;
+    }
+    .bubble {
+      background: #ecf2f9;
+      border-radius: 16px;
+      display: inline;
+      padding: 1rem 1.5rem;
+      font-weight: 700;
+      font-size: math.div(12rem, 16);
+      line-height: 15px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #1a73e5;
+    }
+    .text1 {
+      padding-bottom: 1rem;
+    }
+  }
+  ul {
+    flex-direction: column;
+    margin-top: 1.5rem;
+    gap: 2rem;
+    @include md {
+      flex-direction: row;
+      gap: math.div(88rem, 16);
+    }
+    li {
+      gap: 0.25rem;
+      flex-direction: column;
+      @include md {
+        gap: 0.75rem;
+        flex-direction: row;
+      }
+    }
+  }
+  .icon__box {
+    background: #ecf2f9;
+    border-radius: 16px;
+    width: 72px;
+    height: 72px;
+  }
+}
