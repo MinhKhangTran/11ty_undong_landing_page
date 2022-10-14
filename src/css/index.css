@@ -956,3 +956,69 @@ nav .logo {
   width: 72px;
   height: 72px;
 }
+
+#preis__section {
+  margin-block: 4rem;
+}
+@media (min-width: 576px) {
+  #preis__section {
+    margin-block: 6.5rem;
+  }
+}
+#preis__section h2 {
+  padding-bottom: 1rem;
+}
+@media (min-width: 576px) {
+  #preis__section h2 {
+    padding-bottom: 2rem;
+  }
+}
+#preis__section .card__wrapper {
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+@media (min-width: 768px) {
+  #preis__section .card__wrapper {
+    flex-direction: row;
+  }
+}
+#preis__section .price__card {
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid rgba(26, 115, 229, 0.1);
+  box-shadow: 2px 2px 4px rgba(26, 115, 229, 0.15);
+  border-radius: 8px;
+}
+@media (min-width: 768px) {
+  #preis__section .price__card {
+    width: 50%;
+  }
+}
+#preis__section .price__card img {
+  right: 1.5rem;
+}
+#preis__section .price__card--heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #1b1e2b;
+}
+#preis__section .price__card--preis {
+  font-weight: 500;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  color: #1b1e2b;
+  margin-bottom: 1rem;
+}
+#preis__section .price__card--preis span {
+  font-size: 1rem;
+}
+#preis__section .price__card--benefits {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+#preis__section .price__card--benefits li {
+  gap: 0.5rem;
+  margin-top: 1rem;
+}

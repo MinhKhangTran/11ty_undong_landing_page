@@ -1,0 +1,42 @@
+{
+  "title": "Preise",
+  "subtitle": "Wähle einen Plan, der am besten zu dir passt",
+  "plaene": [
+    {
+      "title": "Standard",
+      "preis": "0",
+      "bestseller": false,
+      "text": "Für jedermann am besten geeignet! Heute installieren und heute schon loslegen!",
+      "benefits": [
+        {
+          "text": "Trainings-, Ernährungs- und Schlafplanung"
+        },
+        {
+          "text": "Verwaltung von den Plänen"
+        },
+        {
+          "text": "„Abgespeckte“ Analyse"
+        }
+      ],
+      "button_text": "Mit dem Standard Plan starten"
+    },
+    {
+      "title": "Next Level",
+      "preis": "20",
+      "bestseller": true,
+      "text": "Erfolge wie nie zuvor! Bringe deine Ziele aufs nächste Level!",
+      "benefits": [
+        {
+          "text": "Individuelle Trainings-, Ernährungs- und Schlafplanung"
+        },
+        {
+          "text": "KI-basierende Optimierungstools"
+        },
+        {
+          "text": "Analyse und Empfehlungen für mehr Erfolge"
+        }
+      ],
+      "button_text": "Mit dem Next Level Plan starten"
+    }
+  ]
+}

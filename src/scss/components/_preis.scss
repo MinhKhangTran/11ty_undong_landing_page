@@ -1,0 +1,59 @@
+@use "sass:math";
+
+#preis__section {
+  margin-block: math.div(64rem, 16);
+  @include sm {
+    margin-block: math.div(104rem, 16);
+  }
+  h2 {
+    padding-bottom: 1rem;
+    @include sm {
+      padding-bottom: 2rem;
+    }
+  }
+  .card__wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: math.div(48rem, 16);
+    @include md {
+      flex-direction: row;
+    }
+  }
+  .price__card {
+    padding: 1.5rem;
+    background: #ffffff;
+    border: 1px solid rgba(26, 115, 229, 0.1);
+    box-shadow: 2px 2px 4px rgba(26, 115, 229, 0.15);
+    border-radius: 8px;
+    @include md {
+      width: 50%;
+    }
+    img {
+      right: 1.5rem;
+    }
+    &--heading {
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: $gray-900;
+    }
+    &--preis {
+      font-weight: 500;
+      font-size: math.div(40rem, 16);
+      line-height: 3rem;
+      color: $gray-900;
+      margin-bottom: 1rem;
+      span {
+        font-size: 1rem;
+      }
+    }
+    &--benefits {
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+      li {
+        gap: 0.5rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
