@@ -1,0 +1,19 @@
+{
+  "subtitle": "Unsere Kunden sind unsere oberste Priorität. Lasst uns hören, was sie zu sagen haben.",
+  "title": "Was Kunden sagen",
+  "testimonials": [
+    {
+      "icon": "/images/feat1/smartphone.svg",
+      "pic": "",
+      "text": "Alle Pläne an einem Ort"
+    },
+    {
+      "icon": "/images/feat1/plaene.svg",
+      "text": "Mehrere Pläne verwalten"
+    },
+    {
+      "icon": "/images/feat1/goal.svg",
+      "text": "Vollständig anpassbar an deine Ziele"
+    }
+  ]
+}
