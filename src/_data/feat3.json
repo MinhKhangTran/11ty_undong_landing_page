@@ -1,0 +1,22 @@
+{
+  "subtitle": "Analyse",
+  "title": "Mit deinen Daten erhälst du einen Fahrplan zum Erfolg",
+  "mainPic": "/images/feat3/feat-3.png",
+  "feats": [
+    {
+      "icon": "/images/feat3/trainingsanalyse.svg",
+      "title": "Trainingsanalyse",
+      "text": "Alle deine Trainingseinheiten übersichtlich in einem Dashboard."
+    },
+    {
+      "icon": "/images/feat3/ernaehrungsanalyse.svg",
+      "title": "Ernährungsanalyse",
+      "text": "Tracke und optimiere ganz einfach deine Ernährung."
+    },
+    {
+      "icon": "/images/feat3/schlafanalyse.svg",
+      "title": "Schlafanalyse",
+      "text": "Bring deinen Schlaf mit einfachen Hacks auf Vordermann."
+    }
+  ]
+}

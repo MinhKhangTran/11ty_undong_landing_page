@@ -1,0 +1,36 @@
+@use "sass:math";
+
+#feat__2 {
+  padding-block: math.div(64rem, 16);
+  .feat {
+    gap: 2rem;
+    flex-direction: column;
+    @include lg {
+      flex-direction: row-reverse;
+    }
+    &__left {
+      flex: 1;
+      h2 {
+        padding-block: 1rem 2rem;
+      }
+    }
+    &__right {
+      flex: 1;
+    }
+    .bubble {
+      background: #ecf2f9;
+      border-radius: 16px;
+      display: inline;
+      padding: 1rem 1.5rem;
+      font-weight: 700;
+      font-size: math.div(12rem, 16);
+      line-height: 15px;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #1a73e5;
+    }
+    .text1 {
+      padding-bottom: 1rem;
+    }
+  }
+}

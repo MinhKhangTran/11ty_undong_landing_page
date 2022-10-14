@@ -1,0 +1,36 @@
+<section class="wrapper" id="feat__3" aria-label="feat 1 Section">
+    <div class="feat | d-flex">
+        <div class="feat__left">
+
+            <p class="bubble">
+                {{feat3.subtitle}}
+            </p>
+
+            <h2 class="heading-2">
+                {{feat3.title}}
+            </h2>
+            <ul class="d-flex">
+                {% for feat in feat3.feats %}
+                <li class="d-flex">
+                    <div class="icon__box | d-flex align-center justify-center">
+                        <img height="48" src="{{feat.icon}}" alt="{{feat.text}}">
+                    </div>
+                    <div>
+                        <h3>
+                            {{feat.title}}
+                        </h3>
+                        <p>
+                            {{feat.text}}
+                        </p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </div>
+        <div class="feat__right">
+            <img src="{{feat3.mainPic}}" alt="">
+        </div>
+    </div>
+
+</section>
