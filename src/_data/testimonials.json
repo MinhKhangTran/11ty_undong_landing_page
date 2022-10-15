@@ -3,17 +3,39 @@
   "title": "Was Kunden sagen",
   "testimonials": [
     {
-      "icon": "/images/feat1/smartphone.svg",
-      "pic": "",
-      "text": "Alle Pläne an einem Ort"
+      "icon": "/images/testimonials/cenagains.svg",
+      "pic": "/images/testimonials/woyoungwo.png",
+      "text": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.” ",
+      "name": "Wo youngwo",
+      "job": "Rechtsanwalt"
     },
     {
-      "icon": "/images/feat1/plaene.svg",
-      "text": "Mehrere Pläne verwalten"
+      "icon": "/images/testimonials/eliteetf.svg",
+      "pic": "/images/testimonials/bobandrews.png",
+      "text": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.” ",
+      "name": "Bob Andrews",
+      "job": "Bibliothekar"
     },
     {
-      "icon": "/images/feat1/goal.svg",
-      "text": "Vollständig anpassbar an deine Ziele"
+      "icon": "/images/testimonials/gymnotes.svg",
+      "pic": "/images/testimonials/alicemalice.png",
+      "text": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.” ",
+      "name": "Alice Malice",
+      "job": "Sängerin"
+    },
+    {
+      "icon": "/images/testimonials/running-pal.svg",
+      "pic": "/images/testimonials/justusjonas.png",
+      "text": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.” ",
+      "name": "Justus Jonas",
+      "job": "Detektiv"
+    },
+    {
+      "icon": "/images/testimonials/strengthbit.svg",
+      "pic": "/images/testimonials/petershaw.png",
+      "text": "“Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.” ",
+      "name": "Peter Shaw",
+      "job": "Sportler"
     }
   ]
 }

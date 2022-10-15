@@ -1,0 +1,29 @@
+<section id="testimonials__section" aria-label="Testimonials Section">
+    <div class="testimonials__gradient | position-absolute"></div>
+    <h2 class="heading-2 | text-center">
+        {{testimonials.title}}
+    </h2>
+    <p class="text-center">
+        {{testimonials.subtitle}}
+    </p>
+    <div class="testi__wrapper | d-flex">
+        {% for testi in testimonials.testimonials %}
+        <article class="testi__card">
+            <img height="24" src="{{testi.icon}}" alt="logo">
+            <div class="testi__card--quote">
+                <img height="32" src="{{testi.pic}}" alt="{{testi.name}}">
+                <p class="quote">
+                    {{testi.text}}
+                </p>
+                <p class="name | d-flex | align-center">
+                    <svg width="12" height="1" viewBox="0 0 12 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="0.133789" y1="0.5" x2="11.2204" y2="0.5" stroke="#62677F" stroke-opacity="0.75" />
+                    </svg>
+                    {{testi.name}}, {{testi.job}}
+                </p>
+            </div>
+
+        </article>
+        {% endfor %}
+    </div>
+</section>

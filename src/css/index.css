@@ -1022,3 +1022,78 @@ nav .logo {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+
+#testimonials__section {
+  padding-block: 4rem;
+}
+@media (min-width: 768px) {
+  #testimonials__section {
+    padding-block: 6.5rem;
+  }
+}
+#testimonials__section h2 {
+  padding-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  #testimonials__section h2 {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  #testimonials__section p.text-center {
+    margin-inline: auto;
+    width: 450px;
+  }
+}
+#testimonials__section .testi__wrapper {
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 3rem;
+}
+@media (min-width: 992px) {
+  #testimonials__section .testi__wrapper {
+    gap: 1.5rem;
+    width: 100vw;
+    flex-wrap: nowrap;
+  }
+}
+#testimonials__section .testi__card {
+  padding: 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(26, 115, 229, 0.25);
+  box-shadow: 8px 8px 16px rgba(26, 115, 229, 0.25);
+  border-radius: 8px;
+}
+@media (min-width: 992px) {
+  #testimonials__section .testi__card {
+    padding: 1.5rem;
+    height: 100%;
+  }
+}
+#testimonials__section .testi__card--quote {
+  padding-top: 3rem;
+}
+#testimonials__section .testi__card--quote .quote {
+  padding-block: 1rem;
+}
+#testimonials__section .testi__card--quote .name {
+  gap: 0.5rem;
+}
+@media (min-width: 992px) {
+  #testimonials__section .testi__card:nth-child(odd) {
+    margin-top: 3rem;
+  }
+}
+#testimonials__section .testimonials__gradient {
+  background: linear-gradient(180deg, rgba(210, 223, 238, 0) 0%, #d2deee 100%);
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+}
+@media (min-width: 992px) {
+  #testimonials__section .testimonials__gradient {
+    height: 400px;
+  }
+}
