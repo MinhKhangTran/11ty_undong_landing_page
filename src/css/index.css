@@ -401,6 +401,20 @@ body {
   }
 }
 
+.heading-3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #1b1e2b;
+  line-height: 32px;
+}
+@media (min-width: 768px) {
+  .heading-3 {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+}
+
 .small__heading {
   font-weight: 700;
   font-size: 0.75rem;
@@ -1096,4 +1110,64 @@ nav .logo {
   #testimonials__section .testimonials__gradient {
     height: 400px;
   }
+}
+
+#erfolg__section {
+  padding-top: 3rem;
+}
+#erfolg__section h2 {
+  padding-bottom: 2rem;
+}
+#erfolg__section img {
+  padding-top: 2.5rem;
+}
+@media (min-width: 992px) {
+  #erfolg__section img {
+    width: 60%;
+  }
+}
+#erfolg__section .story__card {
+  width: 90%;
+  margin-inline: auto;
+  margin-top: 1rem;
+}
+@media (min-width: 992px) {
+  #erfolg__section .story__card {
+    padding: 1.5rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 500px;
+    background: #ffffff;
+    border: 1px solid rgba(26, 115, 229, 0.25);
+    box-shadow: 8px 8px 16px rgba(26, 115, 229, 0.25);
+  }
+}
+@media (min-width: 1200px) {
+  #erfolg__section .story__card {
+    top: 55%;
+    left: 50%;
+    transform: translateY(-50%);
+    width: 640px;
+  }
+}
+@media (min-width: 1400px) {
+  #erfolg__section .story__card {
+    left: 55%;
+  }
+}
+#erfolg__section .story__card h3 {
+  padding-bottom: 1rem;
+}
+#erfolg__section .story__card .button__wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#erfolg__section .story__card .button__wrapper a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #1b1e2b;
 }

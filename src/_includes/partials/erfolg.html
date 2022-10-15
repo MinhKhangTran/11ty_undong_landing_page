@@ -1,0 +1,40 @@
+<section id="erfolg__section" class="position-relative" aria-label="erfolg section">
+    <p class="small__heading | text-center">
+        {{erfolg.subtitle}}
+    </p>
+    <h2 class="heading-2 | text-center">
+        {{erfolg.title}}
+    </h2>
+    <p class="text-center">
+        {{erfolg.subtext}}
+    </p>
+    <img src="{{erfolg.story_img}}" alt="Story image">
+    <article class="story__card">
+        <h3 class="heading-3">
+            {{erfolg.story_title}}
+        </h3>
+        <p>
+            {{erfolg.story_text}}
+        </p>
+        <div class="button__wrapper">
+            <button class="btn__secondary">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_43_677)">
+                        <path
+                            d="M2.9781 0.308689C1.71592 -0.415315 0.692627 0.177798 0.692627 1.63238V12.3666C0.692627 13.8226 1.71592 14.415 2.9781 13.6917L12.3603 8.31101C13.6229 7.58675 13.6229 6.41334 12.3603 5.68925L2.9781 0.308689Z"
+                            fill="#404040" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_43_677">
+                            <rect width="14" height="14" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                {{erfolg.story_btn}}
+            </button>
+            <a href="#">
+                {{erfolg.story_weitere}}
+            </a>
+        </div>
+    </article>
+</section>

@@ -1,0 +1,53 @@
+@use "sass:math";
+
+#erfolg__section {
+  padding-top: math.div(48rem, 16);
+  h2 {
+    padding-bottom: 2rem;
+  }
+  img {
+    padding-top: math.div(40rem, 16);
+    @include lg {
+      width: 60%;
+    }
+  }
+  .story__card {
+    width: 90%;
+    margin-inline: auto;
+    margin-top: 1rem;
+    @include lg {
+      padding: math.div(24rem, 16);
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translateY(-50%);
+      width: 500px;
+      background: #ffffff;
+      border: 1px solid rgba(26, 115, 229, 0.25);
+      box-shadow: 8px 8px 16px rgba(26, 115, 229, 0.25);
+    }
+    @include xl {
+      top: 55%;
+      left: 50%;
+      transform: translateY(-50%);
+      width: 640px;
+    }
+    @include xxl {
+      left: 55%;
+    }
+    h3 {
+      padding-bottom: 1rem;
+    }
+    .button__wrapper {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      a {
+        text-decoration: none;
+        font-weight: 600;
+        color: $gray-900;
+      }
+    }
+  }
+}

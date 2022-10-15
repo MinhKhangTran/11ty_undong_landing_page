@@ -29,6 +29,17 @@ body {
     font-size: math.div(40rem, 16);
   }
 }
+.heading-3 {
+  font-size: math.div(24rem, 16);
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: $gray-900;
+  line-height: 32px;
+  @include md {
+    font-size: math.div(32rem, 16);
+    line-height: 45px;
+  }
+}
 .small__heading {
   font-weight: 700;
   font-size: math.div(12rem, 16);
