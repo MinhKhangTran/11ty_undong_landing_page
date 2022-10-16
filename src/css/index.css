@@ -1171,3 +1171,45 @@ nav .logo {
   font-weight: 600;
   color: #1b1e2b;
 }
+
+#cta__section {
+  padding-block: 5rem;
+}
+@media (min-width: 768px) {
+  #cta__section {
+    padding-block: 6.5rem;
+  }
+}
+#cta__section p {
+  padding-block: 1.5rem;
+}
+@media (min-width: 768px) {
+  #cta__section p {
+    padding-block: 2rem;
+  }
+}
+#cta__section .button__wrapper {
+  gap: 1rem;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #cta__section .button__wrapper {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+#cta__section .button__wrapper svg {
+  margin-right: 0.25rem;
+}
+@media (min-width: 768px) {
+  #cta__section .button__wrapper svg {
+    margin-right: 0.5rem;
+  }
+}
+#cta__section .cta__gradient {
+  width: 100vw;
+  height: 524px;
+  bottom: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(210, 223, 238, 0) 0%, #d2deee 100%);
+}
