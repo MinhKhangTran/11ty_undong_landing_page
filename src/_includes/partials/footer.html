@@ -1,1 +1,58 @@
-<footer>FOOTER</footer>
+<footer class="wrapper">
+    <div class="logo__wrapper">
+        <a href="/">
+            <img src="{{footer.logo}}" alt="logo">
+        </a>
+    </div>
+    <div class="feat__wrapper">
+        <h2>
+            {{footer.feat.title}}
+        </h2>
+        <ul>
+            {% for link in footer.feat.links %}
+            <li>
+                <a href="{{link.url}}">
+                    {{link.text}}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="erfolg__wrapper">
+        <h2>
+            {{footer.erfolg.title}}
+        </h2>
+        <ul>
+            {% for link in footer.erfolg.links %}
+            <li>
+                {{link.text}}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="social__wrapper">
+        <h2>
+            {{footer.social.title}}
+        </h2>
+        <ul>
+            {% for link in footer.social.links %}
+            <li class="d-flex | align-center">
+                <img src="{{link.icon}}" alt="icon">
+                {{link.text}}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="kontakt__wrapper">
+        <h2>
+            {{footer.kontakt.title}}
+        </h2>
+        <ul>
+            {% for link in footer.kontakt.links %}
+            <li>
+                {{link.text}}
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</footer>

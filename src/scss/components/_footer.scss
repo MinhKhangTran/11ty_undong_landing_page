@@ -1,1 +1,45 @@
 @use "sass:math";
+
+footer {
+  display: grid;
+  padding-top: math.div(88rem, 16);
+  padding-bottom: math.div(8rem, 16);
+  grid-template-areas:
+    "logo feat"
+    "erfolg social"
+    "kontakt kontakt";
+  gap: 2rem;
+  @include lg {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .logo__wrapper {
+    @include lg {
+      grid-column: 1/3;
+    }
+  }
+  .social__wrapper {
+    li {
+      gap: 0.5rem;
+    }
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 20px;
+    color: $gray-900;
+    padding-bottom: 0.5rem;
+  }
+  ul {
+    margin: 0;
+    li {
+      margin-bottom: 1rem;
+      color: $blue-dark;
+      a {
+        text-decoration: none;
+        color: $blue-dark;
+      }
+    }
+  }
+}

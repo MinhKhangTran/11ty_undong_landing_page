@@ -1,0 +1,71 @@
+{
+  "logo": "/images/logo.svg",
+  "feat": {
+    "title": "Features",
+    "links": [
+      {
+        "url": "/#feat__1",
+        "text": "Planung"
+      },
+      {
+        "url": "/#feat__2",
+        "text": "Tracken"
+      },
+      {
+        "url": "/#feat__3",
+        "text": "Analyse"
+      }
+    ]
+  },
+  "erfolg": {
+    "title": "Erfolgsgeschichten",
+    "links": [
+      {
+        "text": "Avoburger"
+      },
+      {
+        "text": "StarCoffee"
+      },
+      {
+        "text": "Forest Hotdogs"
+      },
+      {
+        "text": "Vegancake"
+      },
+      {
+        "text": "Pizzadoo"
+      },
+      {
+        "text": "Shakey"
+      }
+    ]
+  },
+  "social": {
+    "title": "Social Media",
+    "links": [
+      {
+        "text": "Instagram",
+        "icon": "/images/footer/instagram.svg"
+      },
+      {
+        "text": "Twitter",
+        "icon": "/images/footer/twitter.svg"
+      },
+      {
+        "text": "YouTube",
+        "icon": "/images/footer/youtube.svg"
+      }
+    ]
+  },
+  "kontakt": {
+    "title": "Kontakt",
+    "links": [
+      {
+        "text": "Musterstraße 4, Ulm, Deutschland"
+      },
+      {
+        "text": "hello@undong.de"
+      }
+    ]
+  }
+}
