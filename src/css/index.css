@@ -1180,12 +1180,20 @@ nav .logo {
     padding-block: 6.5rem;
   }
 }
+@media (min-width: 768px) {
+  #cta__section h2 {
+    width: 900px;
+    margin-inline: auto;
+  }
+}
 #cta__section p {
   padding-block: 1.5rem;
 }
 @media (min-width: 768px) {
   #cta__section p {
     padding-block: 2rem;
+    width: 500px;
+    margin-inline: auto;
   }
 }
 #cta__section .button__wrapper {

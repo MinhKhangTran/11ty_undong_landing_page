@@ -5,10 +5,18 @@
   @include md {
     padding-block: math.div(104rem, 16);
   }
+  h2 {
+    @include md {
+      width: 900px;
+      margin-inline: auto;
+    }
+  }
   p {
     padding-block: 1.5rem;
     @include md {
       padding-block: math.div(32rem, 16);
+      width: 500px;
+      margin-inline: auto;
     }
   }
   .button__wrapper {
